@@ -1,10 +1,9 @@
-from itertools import product
+from itertools import *
 
 k = 0
-for i in product("ИГРОК", repeat = 5):
-    slovo = "".join(i)
-    if slovo.count("И") == 1 and slovo.count("Р") == 1 and slovo.count("Г") == 1 and slovo.count("О") == 1 and slovo.count("К") == 1:
-        if slovo[0] != "К" and slovo.count("РОК") == 0:
-            k += 1
-            print(k, slovo)
 
+for x in product("01234", repeat = 6):
+    slovo = "".join(x)
+    if (slovo[0] in "234") and (slovo[-1] in "012"):
+        k += 1
+        print(k, slovo)
