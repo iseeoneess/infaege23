@@ -1,14 +1,8 @@
 from itertools import product
 k = 0
-for x in product("АНИМЕ", repeat = 4):
-    slovo = "".join(x)
-    k += 1
 
-for x in product("АНИМЕ", repeat = 5):
-    slovo = "".join(x)
-    k += 1
-
-for x in product("АНИМЕ", repeat = 6):
-    slovo = "".join(x)
-    k += 1
-print(k)
+for x in product("ЖИРАФ", repeat = 5):
+    slovo = ''.join(x)
+    if slovo.count("Ж") == 1 and (slovo[0] != 'Ф' and slovo[-1] != "Р"):
+        k += 1
+        print(k, slovo)
