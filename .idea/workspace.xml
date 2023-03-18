@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d55f8af0-12e3-482e-a628-f0a0d45a793e" name="Changes" comment="7">
+    <list default="true" id="d55f8af0-12e3-482e-a628-f0a0d45a793e" name="Changes" comment="12">
       <change beforePath="$PROJECT_DIR$/прога/8 задание/123.py" beforeDir="false" afterPath="$PROJECT_DIR$/прога/8 задание/123.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +154,7 @@
       <workItem from="1678471944665" duration="4000" />
       <workItem from="1678471985379" duration="3306000" />
       <workItem from="1678477530523" duration="12420000" />
-      <workItem from="1678894720855" duration="3901000" />
+      <workItem from="1678894720855" duration="4616000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678472109009</created>
@@ -226,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679170636797</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="12">
+      <created>1679171046817</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679171046817</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +260,8 @@
     <MESSAGE value="1984" />
     <MESSAGE value="1216&#10;ошибка в понимания шестизначного числа&#10;если число начинается с нуля, то логично, что оно уже не шестизначное, поэтому в первом индексе нуля быть не может соотвественно. К тому же, пятеричная система счисления это числа от нуля до 4 включительно." />
     <MESSAGE value="7" />
-    <option name="LAST_COMMIT_MESSAGE" value="7" />
+    <MESSAGE value="12" />
+    <option name="LAST_COMMIT_MESSAGE" value="12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
