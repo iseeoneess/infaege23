@@ -1,9 +1,11 @@
-from itertools import permutations
+from itertools import permutations, product
 
 k = 0
 
-for x in permutations("ПЕСКАРЬ"):
+w = ["ОУ", "УО", "КЛ", 'ЛК', 'ЛН', 'НЛ', 'КН', 'НК']
+
+for x in permutations("КОЛУН"):
     slovo = ''.join(x)
-    if slovo[0] != "Ь" and all(sub not in slovo for sub in ["ЬЕ", "ЬА", "ЬР"]):
+    if all(sub not in slovo for sub in w):
         k += 1
         print(k, slovo)
