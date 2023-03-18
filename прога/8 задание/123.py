@@ -1,9 +1,14 @@
-from itertools import *
-
+from itertools import product
 k = 0
-
-for x in product("01234", repeat = 6):
+for x in product("АНИМЕ", repeat = 4):
     slovo = "".join(x)
-    if (slovo[0] in "234") and (slovo[-1] in "012"):
-        k += 1
-        print(k, slovo)
+    k += 1
+
+for x in product("АНИМЕ", repeat = 5):
+    slovo = "".join(x)
+    k += 1
+
+for x in product("АНИМЕ", repeat = 6):
+    slovo = "".join(x)
+    k += 1
+print(k)
