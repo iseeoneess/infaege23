@@ -1,8 +1,9 @@
-from itertools import product
+from itertools import permutations
 
 k = 0
-for x in product("0123456789", repeat = 3):
+
+for x in permutations("ДЕЙКСТРА", r = 6):
     slovo = "".join(x)
-    if slovo[0] != "0" and slovo[0] <= slovo[1] <= slovo[-1]:
-        k = k + 1
+    if any(sub in slovo for sub in ['ЙД','ЙК','ЙС','ЙТ','ЙР']):
+        k += 1
         print(k, slovo)
