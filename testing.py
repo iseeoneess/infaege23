@@ -1,6 +1,7 @@
-a = "123"
-lst = []
-for i in range(0, len(a)):
-    lst.append("0")
-    lst[i] = a[i]
-print(lst)
+d = [1, 2 ,3]
+def F(n):
+    if n in d:
+        return 1
+    if n > 3 and n % 1 == 0:
+        return F(n-3) + F(n - 2)
+print(F(10))

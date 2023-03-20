@@ -1,11 +1,8 @@
-from itertools import permutations, product
+from itertools import product
 
 k = 0
-
-w = ["ОУ", "УО", "КЛ", 'ЛК', 'ЛН', 'НЛ', 'КН', 'НК']
-
-for x in permutations("КОЛУН"):
-    slovo = ''.join(x)
-    if all(sub not in slovo for sub in w):
+for x in product("AB123", repeat = 8):
+    slovo = "".join(x)
+    if slovo.count("A") + slovo.count("B") == 2:
         k += 1
         print(k, slovo)
