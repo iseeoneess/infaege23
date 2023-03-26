@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d55f8af0-12e3-482e-a628-f0a0d45a793e" name="Changes" comment="1961">
-      <change beforePath="$PROJECT_DIR$/прога/8 задание/123.py" beforeDir="false" afterPath="$PROJECT_DIR$/прога/8 задание/123.py" afterDir="false" />
+    <list default="true" id="d55f8af0-12e3-482e-a628-f0a0d45a793e" name="Changes" comment="989">
+      <change afterPath="$PROJECT_DIR$/прога/14 задание/14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +61,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.123">
+  <component name="RunManager" selected="Python.testing">
     <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="infa" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,6 +76,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/прога/8 задание/123.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="infa" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/прога/14 задание" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/прога/14 задание/14.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,8 +174,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.123" />
         <item itemvalue="Python.testing" />
+        <item itemvalue="Python.14" />
+        <item itemvalue="Python.123" />
         <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
@@ -170,7 +195,8 @@
       <workItem from="1678894720855" duration="7527000" />
       <workItem from="1679347442793" duration="7187000" />
       <workItem from="1679413885431" duration="36000" />
-      <workItem from="1679775708599" duration="314000" />
+      <workItem from="1679775708599" duration="12878000" />
+      <workItem from="1679871692292" duration="697000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678472109009</created>
@@ -326,7 +352,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679775982448</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="265">
+      <created>1679776199963</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1679776199963</updated>
+    </task>
+    <task id="LOCAL-00024" summary="988">
+      <created>1679776267173</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1679776267173</updated>
+    </task>
+    <task id="LOCAL-00025" summary="989">
+      <created>1679776325802</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1679776325802</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,12 +412,31 @@
     <MESSAGE value="1935 код составил верно, но перепутал product с permutations... +-" />
     <MESSAGE value="забыл использовать метод SET, который хранит только уникальные данные.." />
     <MESSAGE value="1961" />
-    <option name="LAST_COMMIT_MESSAGE" value="1961" />
+    <MESSAGE value="265" />
+    <MESSAGE value="988" />
+    <MESSAGE value="989" />
+    <option name="LAST_COMMIT_MESSAGE" value="989" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testing.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/testing.py" line="1">
+        <watch expression="lst" language="Python" />
+      </inline-watch>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/infa$14.coverage" NAME="14 Coverage Results" MODIFIED="1679789358377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/14 задание" />
     <SUITE FILE_PATH="coverage/infa$main.coverage" NAME="main Coverage Results" MODIFIED="1678477573695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/infa$testing.coverage" NAME="testing Coverage Results" MODIFIED="1679353549561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/infa$123.coverage" NAME="123 Coverage Results" MODIFIED="1679775948967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/8 задание" />
+    <SUITE FILE_PATH="coverage/infa$123.coverage" NAME="123 Coverage Results" MODIFIED="1679777251059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/8 задание" />
+    <SUITE FILE_PATH="coverage/infa$testing.coverage" NAME="testing Coverage Results" MODIFIED="1679872285031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/infa$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1678477503190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/8 задание" />
   </component>
 </project>
