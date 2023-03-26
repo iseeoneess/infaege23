@@ -1,6 +1,6 @@
-x = 3*16**8 - 4**5 + 3
+x = 2*27**7 + 3**10 - 9
 lst = []
 while x > 0:
-   lst = [x % 4] + lst
-   x = x // 4
-print(lst.count(3))
+   lst = [x % 3] + lst
+   x = x // 3
+print(lst.count(0))
