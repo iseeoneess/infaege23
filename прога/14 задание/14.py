@@ -1,6 +1,3 @@
-for x in range(2, 37):
-    try:
-        if int("21", x) * int("13", x) == int("313", x):
-            print(x)
-    except:
-        pass
+for x in range(2, 41):
+    if x % int("10000", 2) == int("1011", 2):
+        print(x)
