@@ -1,7 +1,8 @@
-for x in range(2, 1001):
-    num = 3 + 3*(x+4) - 15
-    if num == 33:
-        print(x)
+for n in range(2, 1001):
+    num1 = 3 + n**2
+    num2 = 7 + 9*(n + 2)
+    if num1 == num2:
+        print(n)
         break
-    # proverka
-print(int('33', 15) - int('33', 4))
+# proverka
+print(int("103", 11), int("97", 13))
