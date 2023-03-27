@@ -1,10 +1,11 @@
-for n in range(2, 1001):
-    num = 68
-    lst = []
-    while num > 0:
-        lst = [num % n] + lst
-        num //= n
-    if len(lst) == 4 and lst[-1] == 2:
-        print(lst)
-# proverka:
-print(int("2112", 3))
+for n in range(1, 10000):
+    def ssWhile(x, c):
+        lst = []
+        while x > 0:
+            lst = [x % c] + lst
+            x //= c
+        return lst
+    frNum = ssWhile(n, 6)
+    scNum = ssWhile(n, 5)
+    thrNum = ssWhile(n, 11)
+    if len(frNum) == 2 and len(scNum) == 3 and thrNum[-1] == 1: print(n)
