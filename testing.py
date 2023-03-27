@@ -1,8 +1,10 @@
 for n in range(2, 1001):
-    num1 = 3 + n**2
-    num2 = 7 + 9*(n + 2)
-    if num1 == num2:
-        print(n)
-        break
-# proverka
-print(int("103", 11), int("97", 13))
+    num = 68
+    lst = []
+    while num > 0:
+        lst = [num % n] + lst
+        num //= n
+    if len(lst) == 4 and lst[-1] == 2:
+        print(lst)
+# proverka:
+print(int("2112", 3))
