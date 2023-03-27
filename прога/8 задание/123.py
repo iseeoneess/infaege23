@@ -1,9 +1,4 @@
-from itertools import permutations, product
-
-k = 0
-
-for x in product("АИМРЯ", repeat = 4):
-    slovo = ''.join(x)
-    k += 1
-    if k == 211:
-        print(k, slovo)
+for x in "0123456789abcdefg":
+    num = int(f"9759{x}", 17) + int(f"3{x}108", 17)
+    if num % 11 == 0:
+        print(x, num // 11)
