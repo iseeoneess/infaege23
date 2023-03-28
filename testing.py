@@ -1,14 +1,7 @@
-for x in range(1, 10000):
-    k = 0
-    def ssWhile(x, c):
-        lst = []
-        while x > 0:
-            lst = [x % c] + lst
-            x //= c
-        return lst
-    frNum = ssWhile(x, 5)
-    scNum = ssWhile(x, 2)
-    thrNum = str(ssWhile(x, 16))
-    if len(frNum) <= 4 and len(scNum) >= 5 and thrNum[-1:-3] == "12":
-        k += 1
-        print(k, x)
+def ccFind(num, cc):
+    lst = []
+    num = str(num)[::-1]
+    for i in range(len(num)):
+        lst = [int(num[i]) * cc ** i] + lst
+    return sum(lst)
+print(ccFind(3364, 11))
