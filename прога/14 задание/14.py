@@ -1,8 +1,20 @@
-for x in range(2, 21):
-    for y in range(2, 21):
-        num1 = 9 + x*21 + y*21**2 + 2*21**3 + 21**4
-        num2 = 9 + 9*21 + y*21**2 + 6*21**3 + 3*21**4
-        res = num1 + num2
-        if res % 18 == 0:
-            if y == 5:
-                print(x, y, res // 18)
+def ccFind(num, cc):
+    num = str(num)[::-1]
+    lst = []
+    for i in range(len(num)):
+        lst = [int(num[i]) * cc ** i] + lst
+    return sum(lst)
+
+
+for x in range(1001):
+    num1 = f"21011{x}"
+    if x == 0:
+        num2 = "814"
+    else:
+        num2 = f"{x}814"
+    res1 = ccFind(num1, 12)
+    res2 = ccFind(num2, 17)
+    resultation = res1 + res2
+    if resultation % 27 == 0:
+        print(x, resultation // 27)
+        break
