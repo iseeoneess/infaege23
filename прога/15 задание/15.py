@@ -1,17 +1,8 @@
-from itertools import *
-bit = ["".join(z) for z in product("01", repeat = 8)]
+def f(x,y,a): return (2*x + y != 70) or (x < y) or (a < x)
 
-a = set()
-p = {i for i in bit if i[0] + i[1] == '11'}
-q = {g for g in bit if g[-1] == "0"}
+lst = []
+for a in range(1000):
+    if all(f(x,y,a) for x in range(1000) for y in range(1000)):
+        lst += [a]
 
-def f(x):
-    A = x in a
-    P = x in p
-    Q = x in q
-    return (not (A)) <= ((not(P)) and (not(Q)))
-
-for x in bit:
-    if f(x) == 0:
-        a.add(x)
-print(len(a))
+print(sorted(lst)[-1])
