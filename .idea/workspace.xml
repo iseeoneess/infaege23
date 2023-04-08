@@ -228,14 +228,7 @@
       <workItem from="1680462237488" duration="2176000" />
       <workItem from="1680732081121" duration="2807000" />
       <workItem from="1680735531275" duration="261000" />
-      <workItem from="1680735803474" duration="16090000" />
-    </task>
-    <task id="LOCAL-00008" summary="1984">
-      <created>1678482064383</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1678482064383</updated>
+      <workItem from="1680735803474" duration="16501000" />
     </task>
     <task id="LOCAL-00009" summary="1216&#10;ошибка в понимания шестизначного числа&#10;если число начинается с нуля, то логично, что оно уже не шестизначное, поэтому в первом индексе нуля быть не может соотвественно. К тому же, пятеричная система счисления это числа от нуля до 4 включительно.">
       <created>1678895475568</created>
@@ -573,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680957903453</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="764">
+      <created>1680958103137</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1680958103137</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -637,7 +637,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/infa$14.coverage" NAME="14 Coverage Results" MODIFIED="1680037872177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/14 задание" />
     <SUITE FILE_PATH="coverage/infa$main.coverage" NAME="main Coverage Results" MODIFIED="1678477573695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/infa$15.coverage" NAME="15 Coverage Results" MODIFIED="1680958021870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/15 задание" />
+    <SUITE FILE_PATH="coverage/infa$15.coverage" NAME="15 Coverage Results" MODIFIED="1680958427632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/15 задание" />
     <SUITE FILE_PATH="coverage/infa$123.coverage" NAME="123 Coverage Results" MODIFIED="1679930016361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/8 задание" />
     <SUITE FILE_PATH="coverage/infa$testing.coverage" NAME="testing Coverage Results" MODIFIED="1680906370885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/infa$.coverage" NAME="черепаха Coverage Results" MODIFIED="1680892260954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/6 задание" />
