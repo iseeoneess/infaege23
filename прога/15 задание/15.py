@@ -1,6 +1,17 @@
-def f(x): return (x & 107 == 0) <= ((x & 55 != 0) <= (x & a != 0))
+from itertools import *
+bit = ["".join(z) for z in product("01", repeat = 8)]
 
-for a in range(1, 1000000):
-    if all(f(x) for x in range(1,1000000)):
-        print(a)
-        break
+a = set()
+p = {i for i in bit if i[0] + i[1] == '11'}
+q = {g for g in bit if g[-1] == "0"}
+
+def f(x):
+    A = x in a
+    P = x in p
+    Q = x in q
+    return (not (A)) <= ((not(P)) and (not(Q)))
+
+for x in bit:
+    if f(x) == 0:
+        a.add(x)
+print(len(a))
