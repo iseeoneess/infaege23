@@ -1,5 +1,6 @@
-def f(x, a): return ((x & 26 != 0) or (x & 13 != 0)) <= ((x & 29 == 0) <= (x & a != 0))
+def f(x): return (a % 7 == 0) and ((240 % x == 0) <= ((a % x != 0) <= (780 % x != 0)))
 
-for a in range(1, 10000):
-    if all(f(x, a) for x in range(1, 100000)):
+for a in range(1, 100000):
+    if all(f(x) for x in range(1, 1000000)):
         print(a)
+        break
