@@ -1,4 +1,4 @@
-def f(x): return ((x % 15 == 0) and (x % 21 != 0)) <= ((x % a != 0) or (x % 15 != 0))
+def f(x): return (((x % 4) != 3) or ((x % 6) != 1)) <= ((x % 36) != a)
 
-for a in range(1, 100):
-    if all(f(x) for x in range(10000)): print(a)
+for a in range(1, 100000):
+    if all(f(x) for x in range(1000000)): print(a)
