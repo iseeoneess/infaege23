@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d55f8af0-12e3-482e-a628-f0a0d45a793e" name="Changes" comment="2078">
+    <list default="true" id="d55f8af0-12e3-482e-a628-f0a0d45a793e" name="Changes" comment="743&#10;код верный, но не прочитал задание (+-)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/прога/15 задание/1127.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/прога/15 задание/15.py" beforeDir="false" afterPath="$PROJECT_DIR$/прога/15 задание/15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/прога/15 задание/2078.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/прога/15 задание/2079.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/прога/15 задание/216.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/прога/15 задание/432.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/прога/15 задание/59.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/прога/15 задание/764.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/прога/15 задание/948.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +65,7 @@
       <recent name="C:\Users\79533\Desktop\infa\прога\2 задание" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.testing">
+  <component name="RunManager" selected="Python.15">
     <configuration name="черепаха" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="infa" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,8 +200,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.testing" />
         <item itemvalue="Python.15" />
+        <item itemvalue="Python.testing" />
         <item itemvalue="Python.2" />
         <item itemvalue="Python.черепаха" />
         <item itemvalue="Python.14" />
@@ -239,34 +230,6 @@
       <workItem from="1680732081121" duration="2807000" />
       <workItem from="1680735531275" duration="261000" />
       <workItem from="1680735803474" duration="16822000" />
-    </task>
-    <task id="LOCAL-00013" summary="15(megapizdec)">
-      <created>1679175382303</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1679175382303</updated>
-    </task>
-    <task id="LOCAL-00014" summary="1415.&#10;Допустил ошибку, т.к тут подразумевается то, что могут быть как два символа А, так и 2 символа В">
-      <created>1679351239794</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1679351239794</updated>
-    </task>
-    <task id="LOCAL-00015" summary="1288">
-      <created>1679351344344</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1679351344344</updated>
-    </task>
-    <task id="LOCAL-00016" summary="947  1) Допустил ошибку, ведь одинаковые элементы тоже учитываются. 2) В алфавитном порядке значит то, что символы первые символ должен быть меньше второго и так далее.">
-      <created>1679351769259</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1679351769259</updated>
     </task>
     <task id="LOCAL-00017" summary="1852 ez">
       <created>1679351901421</created>
@@ -583,7 +546,35 @@
       <option name="project" value="LOCAL" />
       <updated>1680959628072</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="627">
+      <created>1680971984896</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1680971984897</updated>
+    </task>
+    <task id="LOCAL-00063" summary="1859">
+      <created>1680972293712</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1680972293712</updated>
+    </task>
+    <task id="LOCAL-00064" summary="1859">
+      <created>1680972329848</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1680972329848</updated>
+    </task>
+    <task id="LOCAL-00065" summary="743&#10;код верный, но не прочитал задание (+-)">
+      <created>1680972714547</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1680972714547</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,9 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="289" />
-    <MESSAGE value="290" />
-    <MESSAGE value="358" />
     <MESSAGE value="183" />
     <MESSAGE value="241" />
     <MESSAGE value="242" />
@@ -626,7 +614,10 @@
     <MESSAGE value="764" />
     <MESSAGE value="1127" />
     <MESSAGE value="2078" />
-    <option name="LAST_COMMIT_MESSAGE" value="2078" />
+    <MESSAGE value="627" />
+    <MESSAGE value="1859" />
+    <MESSAGE value="743&#10;код верный, но не прочитал задание (+-)" />
+    <option name="LAST_COMMIT_MESSAGE" value="743&#10;код верный, но не прочитал задание (+-)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -647,9 +638,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/infa$14.coverage" NAME="14 Coverage Results" MODIFIED="1680037872177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/14 задание" />
     <SUITE FILE_PATH="coverage/infa$main.coverage" NAME="main Coverage Results" MODIFIED="1678477573695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/infa$15.coverage" NAME="15 Coverage Results" MODIFIED="1680963568920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/15 задание" />
+    <SUITE FILE_PATH="coverage/infa$15.coverage" NAME="15 Coverage Results" MODIFIED="1680973028994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/15 задание" />
     <SUITE FILE_PATH="coverage/infa$123.coverage" NAME="123 Coverage Results" MODIFIED="1679930016361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/8 задание" />
-    <SUITE FILE_PATH="coverage/infa$testing.coverage" NAME="testing Coverage Results" MODIFIED="1680971708517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/infa$testing.coverage" NAME="testing Coverage Results" MODIFIED="1680972256442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/infa$.coverage" NAME="черепаха Coverage Results" MODIFIED="1680892260954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/6 задание" />
     <SUITE FILE_PATH="coverage/infa$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1678477503190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/8 задание" />
     <SUITE FILE_PATH="coverage/infa$2.coverage" NAME="2 Coverage Results" MODIFIED="1680894392683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/2 задание" />
