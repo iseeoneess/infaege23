@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d55f8af0-12e3-482e-a628-f0a0d45a793e" name="Changes" comment="DiscFormula">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/прога/Discriminant.py" beforeDir="false" afterPath="$PROJECT_DIR$/прога/Discriminant.py" afterDir="false" />
-    </list>
+    <list default="true" id="d55f8af0-12e3-482e-a628-f0a0d45a793e" name="Changes" comment="3757(18)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -235,14 +231,7 @@
       <workItem from="1681303733396" duration="34165000" />
       <workItem from="1681747960897" duration="129000" />
       <workItem from="1681912349604" duration="1636000" />
-      <workItem from="1683049503455" duration="8134000" />
-    </task>
-    <task id="LOCAL-00019" summary="1929 very HARD">
-      <created>1679354162255</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1679354162255</updated>
+      <workItem from="1683049503455" duration="8740000" />
     </task>
     <task id="LOCAL-00020" summary="1935 код составил верно, но перепутал product с permutations... +-">
       <created>1679354800824</created>
@@ -580,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683049577937</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="3757(18)">
+      <created>1683385838272</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1683385838272</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +594,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="242" />
     <MESSAGE value="243" />
     <MESSAGE value="244" />
     <MESSAGE value="251" />
@@ -623,7 +618,8 @@
     <MESSAGE value="743&#10;код верный, но не прочитал задание (+-)" />
     <MESSAGE value="1409" />
     <MESSAGE value="DiscFormula" />
-    <option name="LAST_COMMIT_MESSAGE" value="DiscFormula" />
+    <MESSAGE value="3757(18)" />
+    <option name="LAST_COMMIT_MESSAGE" value="3757(18)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
