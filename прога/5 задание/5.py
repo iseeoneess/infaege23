@@ -1,16 +1,10 @@
 lst = []
 
-for n in range(1, 10001):
-    bn = bin(n)[2:]
-    chetnK = 0
-    ne_chentK = 0
-    for i in range(len(bn)):
-        if i % 2 != 0 and bn[i] == '1':
-            chetnK += 1
-        if i % 2 == 0 and bn[i] == '0':
-            ne_chentK += 1
+for n in range(1000, 10000):
+    bn = str(n)
+    p_1 = str(int(bn[0]) * int(bn[1]))
+    p_2 = str(int(bn[2]) * int(bn[3]))
+    res = int(str(min(int(p_1), int(p_2))) + str(max(int(p_1), int(p_2))))
+    if res == 1214: lst.append(n)
 
-    r = abs(chetnK - ne_chentK)
-
-    if r == 5: lst.append(n)
-print(min(lst))
+print(lst)
