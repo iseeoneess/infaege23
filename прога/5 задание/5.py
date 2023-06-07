@@ -1,10 +1,14 @@
-lst = []
+from itertools import *
 
+lst = []
 for n in range(100, 1000):
-    bn = str(n)
-    firstEq = int(bn[0])**2 + int(bn[1])**2
-    secondEq = int(bn[1])**2 + int(bn[2])**2
-    res = str(max(firstEq,secondEq)) + str(min(firstEq,secondEq))
-    if res == '9010':
+    lst_nums = [] # буферные списки только внутри цикла, иначе переполниться стэк!
+    for x in permutations(f'{n}', r = 2):
+        s = ''.join(x)
+        if s[0] != '0':
+            lst_nums.append(int(s))
+    res = max(lst_nums) - min(lst_nums)
+
+    if res == 5:
         lst.append(n)
 print(lst)
