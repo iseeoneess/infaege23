@@ -7,7 +7,7 @@ def df(a, b, c):
     dForm = b ** 2 - 4 * a * c
     x1 = (-b + sqrt(dForm)) / (2 * a)
     x2 = (-b - sqrt(dForm)) / (2 * a)
-    return x1, x2
+    return x1,x2
 
 
 yn = input("Sqrts?\n"
