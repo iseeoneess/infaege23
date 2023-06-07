@@ -1,14 +1,25 @@
+from math import *
+
 lst_res = []
 
+for m in range(1, 1001):
+    n = 120
+    bn = str(n)
+    bm = str(m)
+    bn_chet = [int(x) for x in bn if (int(x) % 2 == 0 and x != '0')]
+    bn_nechet = [int(x) for x in bn if int(x) % 2 != 0]
 
-for n in range(2, 10000001):
-    bn = n
-    if bn % 3 == 0: bn = int(bn / 3)
-    else: bn -= 1
-    if bn % 5 == 0: bn = int(bn / 5)
-    else: bn -= 1
-    if bn % 11 == 0: bn = int(bn / 11)
-    else: bn -= 1
-    if bn == 8: lst_res.append(n)
+    bm_chet = [int(x) for x in bm if (int(x) % 2 == 0 and x != '0')]
+    bm_neChet = [int(x) for x in bm if int(x) % 2 != 0]
 
-print(len(lst_res))
+    p_chet = bn_chet + bm_chet
+    p_nechet = bn_nechet + bm_neChet
+
+    p_prodChet = prod(p_chet)
+    p_prodNeChet = prod(p_nechet)
+
+    res = abs(p_prodNeChet - p_prodChet)
+    if res == 29: lst_res.append(m)
+
+
+print(lst_res)
