@@ -1,6 +1,6 @@
-from itertools import *
-
-for x in permutations('0351', r = 2):
-    s = ''.join(x)
-    if s[0] != '0':
-        print(s)
+for a in range(-100, 101):
+    for b in range(-100, 101):
+        x = -5 + 4*(5 + a) + 90
+        y = 15 + 4*(1 + b) + 4
+        if x == 5 and y == 3:
+            print(a, b)

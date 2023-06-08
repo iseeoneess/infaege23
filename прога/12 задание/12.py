@@ -1,6 +1,7 @@
-for a in range(-100, 101):
-    for b in range(-100, 101):
-        x = -5 + 4*(5 + a) + 90
-        y = 15 + 4*(1 + b) + 4
-        if x == 5 and y == 3:
-            print(a, b)
+for a in range(-100, 100):
+    for b in range(-100, 100):
+        for c in range(-100,100):
+            x = 4 + 4*(2 + a)
+            y = 8 + 4*(-4 + b)
+            z = 10 + 4*(-5 + c) + 2
+            if x == 24 and y == 16 and z == 12: print(a,b,c)
