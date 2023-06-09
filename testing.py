@@ -1,10 +1,11 @@
-a = 'КАРА'
-k = 1
-b = 'Т'
-i = len(a)
-while i > 1:
-    c = a[i - 1]
-    b = b + c
-    i -= k
+m = 10
+a = 'ИНФОРМАТИКА'
+b = a[m - 1]
+for k in range(4, 6):
+    c = a[k - 1]
+    b += c
+for k in range(1, 4):
+    c = a[k - 1]
+    b += c
 
 print(b)
