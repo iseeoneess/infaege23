@@ -1,8 +1,7 @@
 def f(n):
-    if n <= 3: return n
-    if n > 3 and n % 3 == 0: return n ** 3 + f(n - 1)
-    if n > 3 and n % 3 == 1: return 4 + f(n // 3)
-    if n > 3 and n % 3 == 2: return n ** 2 + f(n - 2)
+    if n <= 10: return n
+    if 10 < n <= 36: return n // 4 + f(n - 10)
+    if n > 36: return 2 * f(n - 5)
 
 
 print(f(100))
