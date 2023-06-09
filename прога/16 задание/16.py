@@ -1,7 +1,7 @@
 def f(n):
-    if n < 5: return 1 + 2 * n
-    if n >= 5 and n % 3 == 0: return 2 * (n + 1) * f(n - 2)
-    if n >=5 and n % 3 != 0: return 2*n + 1 + f(n -1) + 2*f(n -2)
+    if n <= 1: return 1
+    if n > 1 and n % 2 == 0: return 3 * n + f(n - 1)
+    if n > 1 and n % 2 != 0: return 2 * f(n - 2)
 
 
-print(f(15))
+print(f(31))
