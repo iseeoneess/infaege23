@@ -1,7 +1,11 @@
-def f(c,e):
+from functools import *
+
+@lru_cache(None)
+def f(c, e):
     if c > e: return 0
     if c == e: return 1
-    if c % 2 == 0 and c < e: return f(c + 1, e) + f(c * 1.5, e)
-    if c % 2 != 0 and c < e: return f(c + 1, e)
+    if c < e: return f(c + 2, e) + f(c + 4, e) + f(c + 5, e)
 
-print(f(1,20))
+
+for e in range(1, 100):
+    if f(31, e) == 1001: print(e)
