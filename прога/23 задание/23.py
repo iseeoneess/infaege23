@@ -1,6 +1,6 @@
 def f(c, e):
     if c > e: return 0
     if c == e: return 1
-    if c < e: return f(c + 1, e) + f(c * 2, e) + f(c ** 2, e)
+    if c < e: return f(c + 1, e) + f(c + 2, e) + f(c * 4, e)
 
-print(f(5,154))
+print(f(1,13))
