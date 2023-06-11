@@ -1,6 +1,9 @@
 from itertools import *
-d = []
-for p in set(permutations('123321')):
-    s = ''.join(p)
-    d.append(s)
-print(len(d))
+
+k = 0
+
+for x in permutations('РУСЛАН'):
+    s = ''.join(x)
+    if all(z not in s for z in ['УА', 'АУ', 'УУ', 'АА']):
+        k += 1
+        print(k, s)
