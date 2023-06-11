@@ -1,13 +1,13 @@
 from functools import *
 
+d = set()
 
 @lru_cache(None)
-def f(n):
-    if n <= 1: return n
-    if n > 1 and n % 3 == 0: return n + f(n / 3)
-    if n > 1 and n % 3 != 0: return n + f(n + 3)
+def f(curr):
+    if curr % 2 == 0 and curr < 100: d.add(curr)
+    if curr >= 100: return 0
+    f(curr + 3)
+    f(curr * 3)
 
-for n in range(1, 1001):
-    try:
-        if f(n) > 100: print(n)
-    except: pass
+f(3)
+print(len(d))

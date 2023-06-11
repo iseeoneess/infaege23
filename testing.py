@@ -1,11 +1,6 @@
-m = 10
-a = 'ИНФОРМАТИКА'
-b = a[m - 1]
-for k in range(4, 6):
-    c = a[k - 1]
-    b += c
-for k in range(1, 4):
-    c = a[k - 1]
-    b += c
-
-print(b)
+from itertools import *
+d = []
+for p in set(permutations('123321')):
+    s = ''.join(p)
+    d.append(s)
+print(len(d))
