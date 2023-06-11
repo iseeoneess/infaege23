@@ -1,11 +1,11 @@
 from functools import *
 
 @lru_cache(None)
-def f(c, e):
+def f(c, e, k):
     if c > e: return 0
-    if c == e: return 1
-    if c < e: return f(c + 2, e) + f(c + 4, e) + f(c + 5, e)
+    if c == e and k == 7: return 1
+    if c == e and k != 7: return 0
+    if c < e: return f(c + 1, e, k + 1) + f(c + 4, e, k + 1) + f(c * 2, e, k + 1)
 
 
-for e in range(1, 100):
-    if f(31, e) == 1001: print(e)
+print(f(3, 27, 0))
