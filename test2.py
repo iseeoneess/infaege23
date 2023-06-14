@@ -1,7 +1,6 @@
-from itertools import *
-k = 0
-for x in product('АВЛОР', repeat = 4):
-    s = ''.join(x)
-    k += 1
-    if s[0] == 'Л':
-        print(k, s)
+def f(c, e, f6):
+    if c == 6: f6 = 1
+    if c < e: return 0
+    if c == e: return f6 == 1
+    return f(c - 2, e, f6) + f(c // 3, e,f6)
+print(f(200,2, 0))
