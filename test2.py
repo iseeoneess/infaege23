@@ -1,2 +1,7 @@
-for i in range(0, 10, 1):
-    print(i)
+from itertools import *
+k = 0
+for x in product('АВЛОР', repeat = 4):
+    s = ''.join(x)
+    k += 1
+    if s[0] == 'Л':
+        print(k, s)
