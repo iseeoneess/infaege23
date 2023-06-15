@@ -1,9 +1,10 @@
-a = [int(x) for x in open('17_2239.txt')]
+a = [int(x) for x in open('17_2309.txt')]
 
-max19 = max([x for x in a if x % 19 == 0])
-ans = []
+ans11 = []
+ans17 = []
 
-for i in range(len(a) - 1):
-    if (a[i] > max19) + (a[i + 1] > max19) >= 1:
-        ans.append(sum([a[i], a[i + 1]]))
-print(len(ans), min(ans))
+for i in range(len(a)):
+    if a[i] % 11 == 0: ans11.append(a[i])
+    if a[i] % 17 == 0: ans17.append(a[i])
+
+print(len(ans11), min(ans11))
