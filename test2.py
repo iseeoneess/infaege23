@@ -1,2 +1,6 @@
-lst = [1, 3, 5, 6]
-
+n = 5
+lst = []
+while n > 0:
+    lst = [n % 8] + lst
+    n //= 8
+print(lst)
