@@ -1,10 +1,13 @@
-a = [int(x) for x in open('17_2309.txt')]
+a = [int(x) for x in open('17_2310.txt')]
 
-ans11 = []
-ans17 = []
+numbers_4 = [x for x in a if str(x)[-1] == '4']
+min_number_4 = min(numbers_4)
+max_number_4 = max(numbers_4)
+sum_number_4 = min_number_4 + max_number_4
+ans = []
 
-for i in range(len(a)):
-    if a[i] % 11 == 0: ans11.append(a[i])
-    if a[i] % 17 == 0: ans17.append(a[i])
+for i in range(len(a) - 1):
+    if a[i] + a[i + 1] < sum_number_4:
+        ans.append(a[i] + a[i + 1])
 
-print(len(ans11), min(ans11))
+print(len(ans), max(ans))
