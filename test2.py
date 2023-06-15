@@ -1,8 +1,2 @@
-def f(n, cc):
-    lst = []
-    while n > 0:
-        lst = [n % cc] + lst
-        n //= cc
-    return ''.join([str(x) for x in lst])
+lst = [1, 3, 5, 6]
 
-print(f(1035,16))
