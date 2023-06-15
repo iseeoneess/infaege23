@@ -1,16 +1,14 @@
-from itertools import combinations # импортируем комбинатионс
+from itertools import *
 
 def f(x):
-    p = 1 <= x <= 39 # пишем промежутки в таком виде от мин к макс
-    q = 23 <= x <= 58
-    a = a1 <= x <= a2 # a1, a2 получим после combinations
-    return (p <= (not q)) <= (not a)
+    d = 17 <= x <= 58
+    c = 29 <= x <= 80
+    a = a1 <= x <= a2
+    return d <= (((not c) and (not a)) <= (not d))
 
-ox = [i / 4 for i in range(1*4, 58*4 + 1)] # минимальный + максимальный, поочередно каждое i делим на 10
-m = [] # создаем список в который будем класть наш результат
+ox = [i / 6 for i in range(17*6,80*6 + 1)]
+m = []
 
-for a1,a2 in combinations(ox, 2): # получаем те самые a1, a2, делая пары из всемозможных двоек и значений i
-    if all(f(x) == 1 for x in ox): m.append(a2 - a1) # перебираем все иксы, используя значения внутри отрезка
-
-print(max(m)) # пишем max/min в зависимости от условия задачи
-#если точка выколотая, то прибавляем + 1(получилась дробная часть.)
+for a1,a2 in combinations(ox, 2):
+    if all(f(x) for x in ox): m.append(a2-a1)
+print(round(min(m)))

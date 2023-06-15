@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d55f8af0-12e3-482e-a628-f0a0d45a793e" name="Changes" comment="2403(17)&#10;как обычно на внимательность)">
-      <change afterPath="$PROJECT_DIR$/прога/17 задание/17_2398.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/прога/17 задание/17_2399.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
+    <list default="true" id="d55f8af0-12e3-482e-a628-f0a0d45a793e" name="Changes" comment="2184(15) отрезки!">
       <change beforePath="$PROJECT_DIR$/прога/15 задание/15.py" beforeDir="false" afterPath="$PROJECT_DIR$/прога/15 задание/15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/прога/17 задание/17.py" beforeDir="false" afterPath="$PROJECT_DIR$/прога/17 задание/17.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,14 +256,7 @@
       <workItem from="1686769836061" duration="22000" />
       <workItem from="1686773830977" duration="3908000" />
       <workItem from="1686846047032" duration="14100000" />
-      <workItem from="1686868365173" duration="1591000" />
-    </task>
-    <task id="LOCAL-00102" summary="1131(16)">
-      <created>1686324409572</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1686324409572</updated>
+      <workItem from="1686868365173" duration="1907000" />
     </task>
     <task id="LOCAL-00103" summary="601(16)">
       <created>1686325050318</created>
@@ -606,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686855440780</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="2184(15) отрезки!">
+      <created>1686870002338</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1686870002338</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,7 +619,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3162(23)" />
     <MESSAGE value="4275(23)" />
     <MESSAGE value="4492(23)" />
     <MESSAGE value="3432(23)" />
@@ -649,7 +643,8 @@
     <MESSAGE value="2309(17)&#10;проебаться можно только в условии" />
     <MESSAGE value="2310(17)&#10;неправильно понял условие)))))))" />
     <MESSAGE value="2403(17)&#10;как обычно на внимательность)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2403(17)&#10;как обычно на внимательность)" />
+    <MESSAGE value="2184(15) отрезки!" />
+    <option name="LAST_COMMIT_MESSAGE" value="2184(15) отрезки!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
