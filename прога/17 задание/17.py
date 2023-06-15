@@ -1,15 +1,9 @@
-a = [int(x) for x in open('17_2238.txt')]
+a = [int(x) for x in open('17_2239.txt')]
 
-sr_ALL = sum(a) / len(a)
-
+max19 = max([x for x in a if x % 19 == 0])
 ans = []
 
-for i in range(len(a) - 2):
-    d = [a[i], a[i + 1], a[i + 2]]
-    if all(z > sr_ALL for z in d) \
-            or all(z > sr_ALL for z in [a[i], a[i + 1]]) \
-            or all(z > sr_ALL for z in [a[i], a[i + 2]]) \
-            or all(z > sr_ALL for z in [a[i + 1], a[i + 2]]):
-        ans.append(sum(d))
-
-print(len(ans), max(ans))
+for i in range(len(a) - 1):
+    if (a[i] > max19) + (a[i + 1] > max19) >= 1:
+        ans.append(sum([a[i], a[i + 1]]))
+print(len(ans), min(ans))
