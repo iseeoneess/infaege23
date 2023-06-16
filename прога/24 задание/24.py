@@ -1,6 +1,7 @@
+s = open('24_865.txt').readline()
 ans = []
-s = open('24_2421.txt').readline()
-s = s.replace('D', ' ')
+s = s.replace('C', ' ').replace('F', ' ')
+
 for word in s.split():
     mx = 0
     mx = len(word)
