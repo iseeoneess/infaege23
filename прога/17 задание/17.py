@@ -1,18 +1,19 @@
-a = [int(x) for x in open('17_2399.txt')]
+a = [int(x) for x in open('17_6270.txt')]
+
+chek_lst = []
 
 ans = []
-sm_ALL = sum(int(i) for z in a if z % 35 == 0 for i in str(z))
-
-def hexx(n):
-    lst = []
-    while n > 0:
-        lst = [n % 16] + lst
-        n //= 16
-    return ''.join([str(x) for x in lst])
+for z in range(len(a) - 1):
+    x = a[z]
+    y = a[z + 1]
+    if (abs(x) % 10 == 7) != (abs(y) % 10 == 7):
+        chek_lst.append(abs(x*x - y*y))
 
 
 for i in range(len(a) - 1):
-    if (a[i] > sm_ALL and hexx(a[i + 1])[-2:] == str(int('ef',16)) and a[i + 1] < sm_ALL) \
-            or (a[i + 1] > sm_ALL and hexx(a[i])[-2:] == str(int('ef',16)) and a[i] < sm_ALL):
-        ans.append(a[i] + a[i + 1])
+    x = a[i]
+    y = a[i + 1]
+    if any((x - y)**2 < z for z in chek_lst) and (abs(x) % 10 == 7) != (abs(y) % 10 == 7):
+        ans.append((x - y)**2)
+
 print(len(ans), min(ans))
