@@ -1,7 +1,8 @@
-s = open('24_2420.txt').readline()
-s = s.replace('C', ' ').replace('D', ' ')
-m = 0
-for sub in s.split():
-    m = max(m, len(sub))
-
-print(m)
+ans = []
+s = open('24_2421.txt').readline()
+s = s.replace('D', ' ')
+for word in s.split():
+    mx = 0
+    mx = len(word)
+    ans.append(mx)
+print(max(ans))
