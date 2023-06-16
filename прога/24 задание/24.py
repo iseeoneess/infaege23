@@ -1,11 +1,9 @@
-s = open('24_1040.txt').readline()
-
-for word in 'qwertyuiopasdfghjklzxcvbnm':
-    s = s.replace(word, ' ')
-
+s = open('24_1975.txt').readline()
 ans = []
-for word in s.split():
+s = s.replace('PP', 'P P')
+print(s.split('1'))
+for wrd in s.split():
     mx = 0
-    mx = len(word)
+    mx = len(wrd)
     ans.append(mx)
 print(max(ans))
