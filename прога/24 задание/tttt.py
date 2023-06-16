@@ -1,9 +1,12 @@
-s = open('24_1302.txt').readline()
-s = s.replace('ZZ', '1').replace('X1Y', ' ').replace('Y1X', ' ')
-ans = []
-print(s.split()[:10])
-for wrd in s.split():
-    mx = 0
-    mx = len(wrd)
-    ans.append(mx)
-print(max(ans))
+s = open('24_21.txt').readline()
+
+c = m = 0
+k = 0
+for j in 0,1:
+    c = 0 
+    for i in range(j, len(s) - 1, 2):
+        if s[i] != s[i + 1]:
+            c += 1
+            m = max(m,c)
+        else: c = 0
+print(m)

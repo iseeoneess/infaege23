@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d55f8af0-12e3-482e-a628-f0a0d45a793e" name="Changes" comment="1040(24)">
-      <change afterPath="$PROJECT_DIR$/прога/24 задание/24_1302 (2).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/прога/24 задание/24_1302.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/прога/24 задание/24_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/прога/24 задание/24_2422.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/прога/24 задание/24.py" beforeDir="false" afterPath="$PROJECT_DIR$/прога/24 задание/24.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/24 задание/24_1040.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/24 задание/24_1302 (2).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/24 задание/24_1302.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/24 задание/24_1428.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/24 задание/24_1975.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/24 задание/24_2419.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/24 задание/24_2420.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/24 задание/24_2421.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/24 задание/24_865.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/24 задание/tttt.py" beforeDir="false" afterPath="$PROJECT_DIR$/прога/24 задание/tttt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,6 +277,7 @@
       <workItem from="1686924479348" duration="6462000" />
       <workItem from="1686932518471" duration="917000" />
       <workItem from="1686935824606" duration="1984000" />
+      <workItem from="1686945060742" duration="665000" />
     </task>
     <task id="LOCAL-00111" summary="1037(23)">
       <created>1686490329175</created>
@@ -698,7 +709,7 @@
     <SUITE FILE_PATH="coverage/infa$testing.coverage" NAME="testing Coverage Results" MODIFIED="1686506160072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/infa$5__1_.coverage" NAME="5 (1) Coverage Results" MODIFIED="1686173321398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/5 задание" />
     <SUITE FILE_PATH="coverage/infa$23.coverage" NAME="23 Coverage Results" MODIFIED="1686624593026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/23 задание" />
-    <SUITE FILE_PATH="coverage/infa$24.coverage" NAME="24 Coverage Results" MODIFIED="1686943743182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/24 задание" />
+    <SUITE FILE_PATH="coverage/infa$24.coverage" NAME="24 Coverage Results" MODIFIED="1686945699212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/24 задание" />
     <SUITE FILE_PATH="coverage/infa$8.coverage" NAME="8 Coverage Results" MODIFIED="1686769429668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../var 14.06" />
     <SUITE FILE_PATH="coverage/infa$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1678477503190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/8 задание" />
   </component>
