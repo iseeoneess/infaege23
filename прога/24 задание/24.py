@@ -1,10 +1,10 @@
-s = open('24_314.txt').readline()
+s = open('24_279.txt').readline()
 
-s = s.replace('STOCK', "*")
+s = s.replace("BOSS", "1")
 
 k = 0
 
-for i in range(len(s) - 2):
-    if s[i] + s[i + 1] + s[i + 2] == 'OCK':
+for i in range(len(s)):
+    if s[i] == '1' and s[i - 1] != 'J' and s[i + 1] != 'J':
         k += 1
 print(k)
