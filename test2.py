@@ -1,11 +1,7 @@
-from functools import *
-@lru_cache(None)
-def f(n): return [x for x in range(7, n, 10) if str(x)[-1] == '7' and x != n if n % x == 0]
-k = 0
+s = 'АБВГ БД ВБДЕ ГВЕИ ДКЛ ЕЛЖИ ЖКМН ИЖН КПС ЛКЖ МСР НМР ПС РС'
+d = {c[0]:c[1:] for c in s.split()}
 
-for n in range(550_001, 10**9):
-    z = f(n)
-    if len(z) == 3:
-        k += 1
-        print(n, max(z))
-    if k == 5: break
+def f(s, end):
+    if s[-1] == end: return 'М' in s and "Е" in s
+    return sum(f(s + c, end) for c in d[s[-1]])
+print(f('А','С'))
