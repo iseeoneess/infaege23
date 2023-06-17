@@ -1,19 +1,9 @@
-a = [int(x) for x in open('17_6270.txt')]
-
-chek_lst = []
-
+a = [int(x) for x in open('1_17.txt')]
 ans = []
-for z in range(len(a) - 1):
-    x = a[z]
-    y = a[z + 1]
-    if (abs(x) % 10 == 7) != (abs(y) % 10 == 7):
-        chek_lst.append(abs(x*x - y*y))
-
+avgDuo = max([z for z in a if len(str(z)) == 2])
 
 for i in range(len(a) - 1):
-    x = a[i]
-    y = a[i + 1]
-    if any((x - y)**2 < z for z in chek_lst) and (abs(x) % 10 == 7) != (abs(y) % 10 == 7):
-        ans.append((x - y)**2)
-
-print(len(ans), min(ans))
+    w, y = a[i], a[i + 1]
+    if (len(str(y)) == 2) + (len(str(w)) == 2) == 1 and (w + y) % avgDuo == 0:
+        ans.append(w + y)
+print(len(ans), max(ans))

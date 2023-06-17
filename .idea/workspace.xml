@@ -4,10 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d55f8af0-12e3-482e-a628-f0a0d45a793e" name="Changes" comment="2423(24)">
-      <change afterPath="$PROJECT_DIR$/прога/24 задание/24_2427 (2).txt" afterDir="false" />
+    <list default="true" id="d55f8af0-12e3-482e-a628-f0a0d45a793e" name="Changes" comment="1146(24) в картинке все">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17 (2)_7718.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17.py" beforeDir="false" afterPath="$PROJECT_DIR$/прога/17 задание/17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_1993.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_1994.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_1998.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_1999.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_2002.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_2003.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_2013.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_2015.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_2016.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_2017.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_2238.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_2239.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_2309.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_2310.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_2398.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_2399.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_2400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_2401.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_2402.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_2403.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_4368.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_6270.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/17 задание/17_8427.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/23 задание/23.py" beforeDir="false" afterPath="$PROJECT_DIR$/прога/23 задание/23.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/прога/24 задание/24.py" beforeDir="false" afterPath="$PROJECT_DIR$/прога/24 задание/24.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/24 задание/24_1145 (1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/24 задание/24_1146.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/24 задание/24_2426.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/24 задание/24_2427 (2).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/24 задание/tttt.py" beforeDir="false" afterPath="$PROJECT_DIR$/прога/24 задание/tttt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +86,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/79533/Desktop/infa/прога/24 задание&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/79533/Desktop/infa/прога/17 задание&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -66,8 +96,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\79533\Desktop\infa\прога\24 задание" />
       <recent name="C:\Users\79533\Desktop\infa\прога\17 задание" />
+      <recent name="C:\Users\79533\Desktop\infa\прога\24 задание" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\79533\Desktop\infa\прога\24 задание" />
@@ -75,7 +105,7 @@
       <recent name="C:\Users\79533\Desktop\infa\прога\2 задание" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.24">
+  <component name="RunManager" selected="Python.17">
     <configuration name="13" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="infa" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,28 +128,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="15 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="infa" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/прога/15 задание" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/прога/15 задание/15.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="17" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="infa" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,6 +142,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/прога/17 задание/17.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="23" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="infa" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/прога/23 задание" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/прога/23 задание/23.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.17" />
+        <item itemvalue="Python.23" />
         <item itemvalue="Python.24" />
         <item itemvalue="Python.test2" />
-        <item itemvalue="Python.17" />
         <item itemvalue="Python.13" />
-        <item itemvalue="Python.15 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -267,20 +297,8 @@
       <workItem from="1686932518471" duration="917000" />
       <workItem from="1686935824606" duration="1984000" />
       <workItem from="1686945060742" duration="2816000" />
-    </task>
-    <task id="LOCAL-00113" summary="1376(23)">
-      <created>1686490545767</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1686490545767</updated>
-    </task>
-    <task id="LOCAL-00114" summary="222(23)">
-      <created>1686490620084</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1686490620085</updated>
+      <workItem from="1686950187533" duration="3957000" />
+      <workItem from="1686956904393" duration="1203000" />
     </task>
     <task id="LOCAL-00115" summary="951(23)">
       <created>1686490840008</created>
@@ -611,7 +629,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686946160938</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="1145(24) в картинке все">
+      <created>1686950215102</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1686950215102</updated>
+    </task>
+    <task id="LOCAL-00163" summary="1146(24) в картинке все">
+      <created>1686951438583</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1686951438583</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,8 +661,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2017(17)" />
-    <MESSAGE value="1993(17)" />
     <MESSAGE value="1994(17)" />
     <MESSAGE value="1998(17)" />
     <MESSAGE value="1999(17)" />
@@ -654,7 +684,9 @@
     <MESSAGE value="1040(24)" />
     <MESSAGE value="2422(24)" />
     <MESSAGE value="2423(24)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2423(24)" />
+    <MESSAGE value="1145(24) в картинке все" />
+    <MESSAGE value="1146(24) в картинке все" />
+    <option name="LAST_COMMIT_MESSAGE" value="1146(24) в картинке все" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -669,6 +701,11 @@
           <line>11</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/прога/17 задание/17.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -680,8 +717,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/infa$17.coverage" NAME="17 Coverage Results" MODIFIED="1686874699879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/17 задание" />
     <SUITE FILE_PATH="coverage/infa$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1686914535684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/infa$17.coverage" NAME="17 Coverage Results" MODIFIED="1686956252144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/17 задание" />
     <SUITE FILE_PATH="coverage/infa$14.coverage" NAME="14 Coverage Results" MODIFIED="1686768178847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../var 14.06" />
     <SUITE FILE_PATH="coverage/infa$5.coverage" NAME="5 Coverage Results" MODIFIED="1686769804378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../var 14.06" />
     <SUITE FILE_PATH="coverage/infa$main.coverage" NAME="main Coverage Results" MODIFIED="1678477573695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -697,8 +734,8 @@
     <SUITE FILE_PATH="coverage/infa$15__1_.coverage" NAME="15 (1) Coverage Results" MODIFIED="1686870331596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/15 задание" />
     <SUITE FILE_PATH="coverage/infa$testing.coverage" NAME="testing Coverage Results" MODIFIED="1686506160072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/infa$5__1_.coverage" NAME="5 (1) Coverage Results" MODIFIED="1686173321398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/5 задание" />
-    <SUITE FILE_PATH="coverage/infa$23.coverage" NAME="23 Coverage Results" MODIFIED="1686624593026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/23 задание" />
-    <SUITE FILE_PATH="coverage/infa$24.coverage" NAME="24 Coverage Results" MODIFIED="1686947298233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/24 задание" />
+    <SUITE FILE_PATH="coverage/infa$23.coverage" NAME="23 Coverage Results" MODIFIED="1686955836632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/23 задание" />
+    <SUITE FILE_PATH="coverage/infa$24.coverage" NAME="24 Coverage Results" MODIFIED="1686953557760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/24 задание" />
     <SUITE FILE_PATH="coverage/infa$8.coverage" NAME="8 Coverage Results" MODIFIED="1686769429668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../var 14.06" />
     <SUITE FILE_PATH="coverage/infa$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1678477503190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/8 задание" />
   </component>

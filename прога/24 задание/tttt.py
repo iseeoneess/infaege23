@@ -1,5 +1,4 @@
-s = open('24_1146.txt').readline()
-s = s.replace('B', 'A').replace('C', 'A').replace('E', 'A').replace('F', 'A').replace('A', ' ').split()
-i = 1
-while s.count('D'*i) == 0: i += 1
-print(i)
+s = open('24_4643.txt').readline()
+s = s.replace("B", "A").replace("11", "0").replace("21", "0").replace("22", "0").replace("12","0")
+s = s.replace("0A", "*").replace("0", " ").replace("A", " ").replace("1", " ").replace("2", " ").split()
+print(max(len(c) for c in s))
