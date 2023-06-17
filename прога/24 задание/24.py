@@ -1,9 +1,10 @@
-s = open('24_223.txt').readline()
+s = open('24_314.txt').readline()
+
+s = s.replace('STOCK', "*")
 
 k = 0
 
 for i in range(len(s) - 2):
-    if any(z  == s[i] + s[i + 1] + s[i + 2] for z in ['TIK', 'TOK']):
+    if s[i] + s[i + 1] + s[i + 2] == 'OCK':
         k += 1
-
 print(k)
