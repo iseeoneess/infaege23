@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d55f8af0-12e3-482e-a628-f0a0d45a793e" name="Changes" comment="2500(24)EZ" />
+    <list default="true" id="d55f8af0-12e3-482e-a628-f0a0d45a793e" name="Changes" comment="859 (24)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/прога/24 задание/24.py" beforeDir="false" afterPath="$PROJECT_DIR$/прога/24 задание/24.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -265,21 +268,7 @@
       <workItem from="1686945060742" duration="2816000" />
       <workItem from="1686950187533" duration="3957000" />
       <workItem from="1686956904393" duration="2455000" />
-      <workItem from="1687017977917" duration="11741000" />
-    </task>
-    <task id="LOCAL-00126" summary="4275(23)">
-      <created>1686508577692</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1686508577692</updated>
-    </task>
-    <task id="LOCAL-00127" summary="4492(23)">
-      <created>1686509958538</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1686509958538</updated>
+      <workItem from="1687017977917" duration="12351000" />
     </task>
     <task id="LOCAL-00128" summary="3432(23)">
       <created>1686510074750</created>
@@ -610,7 +599,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687036475199</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="2501(24)EZ">
+      <created>1687036595828</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1687036595828</updated>
+    </task>
+    <task id="LOCAL-00176" summary="859 (24)">
+      <created>1687036840822</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1687036840822</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,8 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2403(17)&#10;как обычно на внимательность)" />
-    <MESSAGE value="2184(15) отрезки!" />
     <MESSAGE value="1968(15) отрезки!" />
     <MESSAGE value="8741(13)" />
     <MESSAGE value="2419(24)" />
@@ -653,7 +654,9 @@
     <MESSAGE value="2498(24)" />
     <MESSAGE value="2499(24) DOUBLE TEST" />
     <MESSAGE value="2500(24)EZ" />
-    <option name="LAST_COMMIT_MESSAGE" value="2500(24)EZ" />
+    <MESSAGE value="2501(24)EZ" />
+    <MESSAGE value="859 (24)" />
+    <option name="LAST_COMMIT_MESSAGE" value="859 (24)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -702,7 +705,7 @@
     <SUITE FILE_PATH="coverage/infa$testing.coverage" NAME="testing Coverage Results" MODIFIED="1686506160072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/infa$5__1_.coverage" NAME="5 (1) Coverage Results" MODIFIED="1686173321398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/5 задание" />
     <SUITE FILE_PATH="coverage/infa$23.coverage" NAME="23 Coverage Results" MODIFIED="1686955836632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/23 задание" />
-    <SUITE FILE_PATH="coverage/infa$24.coverage" NAME="24 Coverage Results" MODIFIED="1687036445853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/24 задание" />
+    <SUITE FILE_PATH="coverage/infa$24.coverage" NAME="24 Coverage Results" MODIFIED="1687037010655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/24 задание" />
     <SUITE FILE_PATH="coverage/infa$8.coverage" NAME="8 Coverage Results" MODIFIED="1686769429668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../var 14.06" />
     <SUITE FILE_PATH="coverage/infa$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1678477503190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/прога/8 задание" />
   </component>
