@@ -1,5 +1,10 @@
 k = 0
-for s in open('24_587 (1).txt'):
-    if s.count("B") / s.count("A") >= 1.05:
-        k += 1
+for s in open('24_2502.txt'):
+    cnt = 0
+    for i in range(len(s) - 3):
+        if s[i] + s[i + 2] + s[i + 3] == 'KGE':
+            cnt += 1
+        if cnt >= 1:
+            k += 1
+            break
 print(k)
