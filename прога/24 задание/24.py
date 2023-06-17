@@ -1,5 +1,4 @@
-s = open('24_2501.txt').readline()
 k = 0
-for i in range(len(s) - 5):
-    if s[i] + s[i + 2] + s[i + 4]  == 'AAA': k += 1
+for s in open('24_859.txt'):
+    if s.count("S") == s.count("X"):k += 1
 print(k)
