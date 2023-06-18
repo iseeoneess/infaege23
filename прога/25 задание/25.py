@@ -1,11 +1,11 @@
 def div(x):
     d = set()
-    for i in range(2, int(x**0.5) + 1):
+    for i in range(1, int(x**0.5) + 1):
         if x % i == 0:
-            d = d | {i, x//i}
+            d |= {i, x // i}
     return sorted(d)
 
-for x in range(81_234, 134_689):
+for x in range(154_026, 154_043):
     d = div(x)
-    if len(d) == 3:
-        print(*d)
+    if len(d) == 4:
+        print(d[-2], d[-1])
