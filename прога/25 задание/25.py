@@ -1,19 +1,17 @@
-from math import prod
-
-
 def div(x):
     d = set()
-    for i in range(2, int(x ** 0.5) + 1):
+    for i in range(1, int(x ** 0.5) + 1):
         if x % i == 0: d |= {i, x // i}
     return sorted(d)
 
 
 k = 0
-for x in range(400_000_001, 10 ** 20):
+
+for x in range(190_201, 190260 + 1):
     d = div(x)
-    if len(d) >= 5:
-        PN = d[0] * d[1] * d[2] * d[3] * d[4]
-        if PN <= x and str(PN)[-2:] == '17':
+    if len(d) > 0:
+        p = [x for x in d if x % 2 == 0]
+        if len(p) == 4:
             k += 1
-            print(PN, d[4])
+            print(p[-1], p[-2])
     if k == 5: break
