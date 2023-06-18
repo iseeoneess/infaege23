@@ -1,21 +1,4 @@
-s = open('24_1143.txt').readline()
-
-k = 0
-
-for i in range(len(s) - 6):
-    if s[i] +s[i + 6] == 'AF':
-        k += 1
-
-for i in range(len(s) - 7):
-    if s[i] +s[i + 7] == 'AF':
-        k += 1
-
-for i in range(len(s) - 8):
-    if s[i] +s[i + 8] == 'AF':
-        k += 1
-
-for i in range(len(s) - 9):
-    if s[i] +s[i + 9] == 'AF':
-        k += 1
-
-print(k)
+s = open('24_2506.txt').readline().strip()
+d = {x:s.count(x) for x in sorted(set(s))}
+m = max(d.values())
+print([x for x in d if d[x] == m], m)
