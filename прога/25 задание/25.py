@@ -1,5 +1,5 @@
-from fnmatch import fnmatch
+from fnmatch import *
 
-for x in range(0, 10**6, 51):
-    if fnmatch(str(x), '12*45*'):
-        print(x, x // 51)
+for x in range(0, 10**10, 2023):
+    if fnmatch(str(x), '1?2139*4'):
+        print(x, x // 2023)
