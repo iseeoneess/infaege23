@@ -6,11 +6,11 @@ def div(x):
 
 
 k = 0
-for x in range(500_001, 10 ** 10):
+for x in range(300_001, 10 ** 10):
     d = div(x)
     if len(d) > 0:
-        p = [z for z in d if str(z)[-1] == '8' and z != 8]
-        if len(p) > 0:
+        p = [z for z in d if z % 3 == 0 and z != x]
+        if len(p) == 5:
             k += 1
-            print(x, min(p))
-    if k == 5: break
+            print(x, max(p))
+    if k == 4: break
