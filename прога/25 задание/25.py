@@ -9,8 +9,6 @@ k = 0
 
 for x in range(550_001, 10 ** 10):
     d = div(x)
-    print(d)
-    input()
     if len(d) > 0:
         f = sum(x for x in d) // len(d)
         if f % 31 == 13:
