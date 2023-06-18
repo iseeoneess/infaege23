@@ -1,4 +1,12 @@
-s = open('24_1428.txt').readline()
+s = open('24_8166.txt').readline()
+s = s.replace("B", "A").replace("C", "A")
+while 'AA' in s: s = s.replace("AA","*")
 
-s = s.replace('XY', "X Y").replace("XZ", "X Z").split()
-print(max(len(c) for c in s))
+c = m = 0
+for i in range(len(s)):
+    if s[i] == '*':
+        c += 1
+        m = max(m, c)
+    else: c = 0
+
+print(m)
