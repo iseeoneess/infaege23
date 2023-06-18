@@ -1,18 +1,11 @@
-from functools import *
-@lru_cache(None)
-def f(n):
-    k = [x for x in range(1, n + 1, 2) if z(x)]
-    if len(set(k)) == 5: return k
-    return 0
-@lru_cache(None)
-def z(k):
-    for x in range(1, k + 1):
-        return k % x == 0
+def div(x):
+    d = set()
+    for i in range(2, int(x**0.5) + 1):
+        if x % i == 0:
+            d = d | {i, x//i}
+    return sorted(d)
 
-
-
-for i in range(55_000_000, 60_000_001):
-    d = f(i)
-    if d != 0:
-        print(i, max(d))
-
+for x in range(81_234, 134_689):
+    d = div(x)
+    if len(d) == 3:
+        print(*d)

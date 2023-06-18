@@ -1,8 +1,4 @@
-s = open('24_2509.txt').readline().strip()
+s = open('24_1428.txt').readline()
 
-d = {x:s.count(x) for x in sorted(set(s))}
-mx = max(d.values())
-mn = min(d.values())
-
-print([x for x in d if d[x] == mx], [x for x in d if d[x] == mn])
-print(mx - mn)
+s = s.replace('XY', "X Y").replace("XZ", "X Z").split()
+print(max(len(c) for c in s))
